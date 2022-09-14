@@ -1,8 +1,13 @@
-from src.stat_calculator import Stat_Calculator as sc
+from src.stat_parser import Stat_Parser as sp
 
 def main():
-    client = sc()
-    client.show()
+    parser_client = sp()
+    data = parser_client.filter_data({
+        'Pitcher': 'Brewer',
+        'Outcome': 'HR'
+    })
+
+    print(data.to_string())
 
 if __name__ == '__main__':
     main()

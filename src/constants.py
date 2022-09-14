@@ -3,6 +3,12 @@ import os
 RAW_STATS_FILE_NAME = 'raw_stats_test.csv'
 RAW_STATS_FILE_PATH = os.path.join(os.path.dirname(__file__), '..', 'resources', RAW_STATS_FILE_NAME)
 
+COLUMN_DATE = 'Date'
+COLUMN_PITCHER = 'Pitcher'
+COLUMN_BATTER = 'Batter'
+COLUMN_OUTCOME = 'Outcome'
+COLUMN_FIELDERS = 'Fielders'
+
 OUTCOME_SINGLE = '1B'
 OUTCOME_DOUBLE = '2B'
 OUTCOME_TRIPLE = '3B'
