@@ -8,6 +8,8 @@ class Stat_Calculator:
     def get_player_stats(self, player):
         pass
 
-    def get_total_outcome(self, data, outcome):
-        total = data[c.COLUMN_OUTCOME].str.contains(outcome).sum()
-        return total
+    # def get_batting_average(self, player):
+    #     player_batting_data = sp.filter_data(
+    #         c.COLUMN_BATTER: player
+    #     )
+

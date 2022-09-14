@@ -11,16 +11,16 @@ class Stat_Parser:
     def show(self):
         print(self.data.to_string())
 
-    def filter_data(self, filters = {}):
+    @staticmethod
+    def filter_data(data, filters):
         '''
         Specify key:values to filter data for other operations.
         Use csv headers.
         '''
-        data = self.data
         for filter in filters:
             data = data.loc[data[filter] == filters[filter]]
 
         return data
 
-    def get_batting_average(self, data):
-        pass
+    def count_occurrences(self, data):
+        return data.count()

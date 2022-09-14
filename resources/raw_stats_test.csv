@@ -1,4 +1,8 @@
 Date,Pitcher,Batter,Outcome,Fielders
-01/01/23,Amburgey III,Brewer,H,
+01/01/23,Amburgey III,Brewer,1B,
 01/01/23,Brewer,Amburgey III,BB,
+01/01/23,Brewer,DeHart,HR,
+01/01/23,Amburgey III,DeHart,K,
+01/01/23,DeHart,Amburgey III,K,
+01/01/23,Amburgey III,DeHart,2B,
 01/01/23,Brewer,DeHart,HR,
